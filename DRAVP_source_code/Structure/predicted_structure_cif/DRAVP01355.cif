@@ -1,0 +1,169 @@
+#
+data_DRAVP01355
+_entry.id DRAVP01355
+#
+loop_
+_ma_data.content_type
+_ma_data.id
+_ma_data.name
+"model coordinates" 1 Model             
+"input structure"   2 "Input structure" 
+#
+_ma_model_list.data_id          1
+_ma_model_list.model_group_id   1
+_ma_model_list.model_group_name "AlphaFold Monomer v2.0 model"
+_ma_model_list.model_id         1
+_ma_model_list.model_name       "Top ranked model"
+_ma_model_list.model_type       "Ab initio model"
+_ma_model_list.ordinal_id       1
+#
+loop_
+_ma_protocol_step.method_type
+_ma_protocol_step.ordinal_id
+_ma_protocol_step.protocol_id
+_ma_protocol_step.step_id
+"coevolution MSA" 1 1 1 
+"template search" 2 1 2 
+modeling          3 1 3 
+#
+loop_
+_ma_qa_metric.id
+_ma_qa_metric.mode
+_ma_qa_metric.name
+_ma_qa_metric.software_group_id
+_ma_qa_metric.type
+1 global pLDDT 1 pLDDT 
+2 local  pLDDT 1 pLDDT 
+#
+_ma_qa_metric_global.metric_id    1
+_ma_qa_metric_global.metric_value 72.31
+_ma_qa_metric_global.model_id     1
+_ma_qa_metric_global.ordinal_id   1
+#
+loop_
+_ma_qa_metric_local.label_asym_id
+_ma_qa_metric_local.label_comp_id
+_ma_qa_metric_local.label_seq_id
+_ma_qa_metric_local.metric_id
+_ma_qa_metric_local.metric_value
+_ma_qa_metric_local.model_id
+_ma_qa_metric_local.ordinal_id
+A ALA 1   2	76.31 1 1
+A VAL 2   2	80.55 1 2
+A VAL 3   2	78.66 1 3
+A ASN 4   2	70.81 1 4
+A ASP 5   2	70.29 1 5
+A LEU 6   2	57.26 1 6
+#
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_comp_id
+_atom_site.label_seq_id
+_atom_site.label_alt_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_atom_id
+_atom_site.auth_comp_id
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+ATOM   1 N  N    ALA   1 .  .  A  1     8.421  -5.692   0.501  1.00 76.31  .   N    ALA   1 A 1 
+ATOM   2 H  H    ALA   1 .  .  A  1     9.335  -5.386   0.803  1.00 76.31  .   H    ALA   1 A 1 
+ATOM   3 H  H2   ALA   1 .  .  A  1     8.518  -6.520  -0.068  1.00 76.31  .   H2   ALA   1 A 1 
+ATOM   4 H  H3   ALA   1 .  .  A  1     7.852  -5.924   1.302  1.00 76.31  .   H3   ALA   1 A 1 
+ATOM   5 C  CA   ALA   1 .  .  A  1     7.769  -4.648  -0.312  1.00 76.31  .   CA   ALA   1 A 1 
+ATOM   6 H  HA   ALA   1 .  .  A  1     7.572  -3.763   0.293  1.00 76.31  .   HA   ALA   1 A 1 
+ATOM   7 C  C    ALA   1 .  .  A  1     6.459  -5.246  -0.759  1.00 76.31  .   C    ALA   1 A 1 
+ATOM   8 C  CB   ALA   1 .  .  A  1     8.653  -4.260  -1.506  1.00 76.31  .   CB   ALA   1 A 1 
+ATOM   9 H  HB1  ALA   1 .  .  A  1     8.899  -5.136  -2.105  1.00 76.31  .   HB1  ALA   1 A 1 
+ATOM  10 H  HB2  ALA   1 .  .  A  1     8.124  -3.542  -2.133  1.00 76.31  .   HB2  ALA   1 A 1 
+ATOM  11 H  HB3  ALA   1 .  .  A  1     9.575  -3.801  -1.151  1.00 76.31  .   HB3  ALA   1 A 1 
+ATOM  12 O  O    ALA   1 .  .  A  1     6.530  -6.152  -1.569  1.00 76.31  .   O    ALA   1 A 1 
+ATOM  13 N  N    VAL   2 .  .  A  1     5.374  -4.881  -0.064  1.00 80.55  .   N    VAL   2 A 1 
+ATOM  14 H  H    VAL   2 .  .  A  1     5.441  -4.073   0.538  1.00 80.55  .   H    VAL   2 A 1 
+ATOM  15 C  CA   VAL   2 .  .  A  1     4.040  -5.514  -0.071  1.00 80.55  .   CA   VAL   2 A 1 
+ATOM  16 H  HA   VAL   2 .  .  A  1     3.827  -5.869   0.938  1.00 80.55  .   HA   VAL   2 A 1 
+ATOM  17 C  C    VAL   2 .  .  A  1     3.990  -6.733  -0.986  1.00 80.55  .   C    VAL   2 A 1 
+ATOM  18 C  CB   VAL   2 .  .  A  1     2.935  -4.496  -0.423  1.00 80.55  .   CB   VAL   2 A 1 
+ATOM  19 H  HB   VAL   2 .  .  A  1     3.014  -4.202  -1.470  1.00 80.55  .   HB   VAL   2 A 1 
+ATOM  20 O  O    VAL   2 .  .  A  1     3.705  -6.617  -2.175  1.00 80.55  .   O    VAL   2 A 1 
+ATOM  21 C  CG1  VAL   2 .  .  A  1     1.543  -5.083  -0.162  1.00 80.55  .   CG1  VAL   2 A 1 
+ATOM  22 H HG11  VAL   2 .  .  A  1     1.435  -5.371   0.884  1.00 80.55  .  HG11  VAL   2 A 1 
+ATOM  23 H HG12  VAL   2 .  .  A  1     1.380  -5.962  -0.785  1.00 80.55  .  HG12  VAL   2 A 1 
+ATOM  24 H HG13  VAL   2 .  .  A  1     0.775  -4.352  -0.413  1.00 80.55  .  HG13  VAL   2 A 1 
+ATOM  25 C  CG2  VAL   2 .  .  A  1     3.066  -3.227   0.437  1.00 80.55  .   CG2  VAL   2 A 1 
+ATOM  26 H HG21  VAL   2 .  .  A  1     2.218  -2.571   0.240  1.00 80.55  .  HG21  VAL   2 A 1 
+ATOM  27 H HG22  VAL   2 .  .  A  1     3.971  -2.676   0.181  1.00 80.55  .  HG22  VAL   2 A 1 
+ATOM  28 H HG23  VAL   2 .  .  A  1     3.066  -3.487   1.496  1.00 80.55  .  HG23  VAL   2 A 1 
+ATOM  29 N  N    VAL   3 .  .  A  1     4.363  -7.884  -0.423  1.00 78.66  .   N    VAL   3 A 1 
+ATOM  30 H  H    VAL   3 .  .  A  1     4.536  -7.907   0.571  1.00 78.66  .   H    VAL   3 A 1 
+ATOM  31 C  CA   VAL   3 .  .  A  1     4.002  -9.163  -1.022  1.00 78.66  .   CA   VAL   3 A 1 
+ATOM  32 H  HA   VAL   3 .  .  A  1     4.203  -9.162  -2.093  1.00 78.66  .   HA   VAL   3 A 1 
+ATOM  33 C  C    VAL   3 .  .  A  1     2.512  -9.181  -0.788  1.00 78.66  .   C    VAL   3 A 1 
+ATOM  34 C  CB   VAL   3 .  .  A  1     4.744 -10.346  -0.377  1.00 78.66  .   CB   VAL   3 A 1 
+ATOM  35 H  HB   VAL   3 .  .  A  1     4.514 -10.396   0.688  1.00 78.66  .   HB   VAL   3 A 1 
+ATOM  36 O  O    VAL   3 .  .  A  1     2.051  -9.390   0.332  1.00 78.66  .   O    VAL   3 A 1 
+ATOM  37 C  CG1  VAL   3 .  .  A  1     4.366 -11.670  -1.043  1.00 78.66  .   CG1  VAL   3 A 1 
+ATOM  38 H HG11  VAL   3 .  .  A  1     4.879 -12.499  -0.555  1.00 78.66  .  HG11  VAL   3 A 1 
+ATOM  39 H HG12  VAL   3 .  .  A  1     3.297 -11.850  -0.932  1.00 78.66  .  HG12  VAL   3 A 1 
+ATOM  40 H HG13  VAL   3 .  .  A  1     4.609 -11.661  -2.105  1.00 78.66  .  HG13  VAL   3 A 1 
+ATOM  41 C  CG2  VAL   3 .  .  A  1     6.261 -10.150  -0.537  1.00 78.66  .   CG2  VAL   3 A 1 
+ATOM  42 H HG21  VAL   3 .  .  A  1     6.590  -9.264   0.006  1.00 78.66  .  HG21  VAL   3 A 1 
+ATOM  43 H HG22  VAL   3 .  .  A  1     6.776 -11.020  -0.130  1.00 78.66  .  HG22  VAL   3 A 1 
+ATOM  44 H HG23  VAL   3 .  .  A  1     6.511 -10.051  -1.593  1.00 78.66  .  HG23  VAL   3 A 1 
+ATOM  45 N  N    ASN   4 .  .  A  1     1.799  -8.641  -1.777  1.00 70.81  .   N    ASN   4 A 1 
+ATOM  46 H  H    ASN   4 .  .  A  1     2.267  -8.381  -2.633  1.00 70.81  .   H    ASN   4 A 1 
+ATOM  47 C  CA   ASN   4 .  .  A  1     0.369  -8.732  -1.770  1.00 70.81  .   CA   ASN   4 A 1 
+ATOM  48 H  HA   ASN   4 .  .  A  1    -0.014  -8.453  -0.788  1.00 70.81  .   HA   ASN   4 A 1 
+ATOM  49 C  C    ASN   4 .  .  A  1     0.164 -10.193  -1.997  1.00 70.81  .   C    ASN   4 A 1 
+ATOM  50 C  CB   ASN   4 .  .  A  1    -0.314  -7.876  -2.837  1.00 70.81  .   CB   ASN   4 A 1 
+ATOM  51 H  HB2  ASN   4 .  .  A  1    -0.045  -8.235  -3.830  1.00 70.81  .   HB2  ASN   4 A 1 
+ATOM  52 H  HB3  ASN   4 .  .  A  1    -0.002  -6.837  -2.734  1.00 70.81  .   HB3  ASN   4 A 1 
+ATOM  53 O  O    ASN   4 .  .  A  1     0.383 -10.691  -3.108  1.00 70.81  .   O    ASN   4 A 1 
+ATOM  54 C  CG   ASN   4 .  .  A  1    -1.825  -7.943  -2.664  1.00 70.81  .   CG   ASN   4 A 1 
+ATOM  55 N  ND2  ASN   4 .  .  A  1    -2.576  -7.589  -3.674  1.00 70.81  .   ND2  ASN   4 A 1 
+ATOM  56 H HD21  ASN   4 .  .  A  1    -3.559  -7.768  -3.527  1.00 70.81  .  HD21  ASN   4 A 1 
+ATOM  57 H HD22  ASN   4 .  .  A  1    -2.165  -7.456  -4.587  1.00 70.81  .  HD22  ASN   4 A 1 
+ATOM  58 O  OD1  ASN   4 .  .  A  1    -2.363  -8.237  -1.614  1.00 70.81  .   OD1  ASN   4 A 1 
+ATOM  59 N  N    ASP   5 .  .  A  1    -0.131 -10.822  -0.880  1.00 70.29  .   N    ASP   5 A 1 
+ATOM  60 H  H    ASP   5 .  .  A  1    -0.103 -10.350   0.012  1.00 70.29  .   H    ASP   5 A 1 
+ATOM  61 C  CA   ASP   5 .  .  A  1    -0.501 -12.179  -0.904  1.00 70.29  .   CA   ASP   5 A 1 
+ATOM  62 H  HA   ASP   5 .  .  A  1     0.371 -12.678  -1.327  1.00 70.29  .   HA   ASP   5 A 1 
+ATOM  63 C  C    ASP   5 .  .  A  1    -1.686 -12.259  -1.865  1.00 70.29  .   C    ASP   5 A 1 
+ATOM  64 C  CB   ASP   5 .  .  A  1    -0.741 -12.738   0.502  1.00 70.29  .   CB   ASP   5 A 1 
+ATOM  65 H  HB2  ASP   5 .  .  A  1    -1.484 -13.534   0.458  1.00 70.29  .   HB2  ASP   5 A 1 
+ATOM  66 H  HB3  ASP   5 .  .  A  1    -1.169 -11.955   1.128  1.00 70.29  .   HB3  ASP   5 A 1 
+ATOM  67 O  O    ASP   5 .  .  A  1    -2.800 -11.777  -1.642  1.00 70.29  .   O    ASP   5 A 1 
+ATOM  68 C  CG   ASP   5 .  .  A  1     0.540 -13.282   1.175  1.00 70.29  .   CG   ASP   5 A 1 
+ATOM  69 O  OD1  ASP   5 .  .  A  1     1.649 -13.208   0.592  1.00 70.29  .   OD1  ASP   5 A 1 
+ATOM  70 O  OD2  ASP   5 .  .  A  1     0.428 -13.629   2.375  1.00 70.29  .   OD2  ASP   5 A 1 
+ATOM  71 N  N    LEU   6 .  .  A  1    -1.358 -12.853  -2.996  1.00 57.26  .   N    LEU   6 A 1 
+ATOM  72 H  H    LEU   6 .  .  A  1    -0.439 -12.581  -3.315  1.00 57.26  .   H    LEU   6 A 1 
+ATOM  73 C  CA   LEU   6 .  .  A  1    -1.379 -14.279  -2.783  1.00 57.26  .   CA   LEU   6 A 1 
+ATOM  74 H  HA   LEU   6 .  .  A  1    -2.236 -14.494  -2.144  1.00 57.26  .   HA   LEU   6 A 1 
+ATOM  75 C  C    LEU   6 .  .  A  1    -0.197 -14.835  -1.976  1.00 57.26  .   C    LEU   6 A 1 
+ATOM  76 C  CB   LEU   6 .  .  A  1    -1.549 -14.979  -4.117  1.00 57.26  .   CB   LEU   6 A 1 
+ATOM  77 H  HB2  LEU   6 .  .  A  1    -2.024 -14.330  -4.853  1.00 57.26  .   HB2  LEU   6 A 1 
+ATOM  78 H  HB3  LEU   6 .  .  A  1    -0.570 -15.287  -4.485  1.00 57.26  .   HB3  LEU   6 A 1 
+ATOM  79 O  O    LEU   6 .  .  A  1     0.944 -14.700  -2.468  1.00 57.26  .   O    LEU   6 A 1 
+ATOM  80 C  CG   LEU   6 .  .  A  1    -2.432 -16.185  -3.826  1.00 57.26  .   CG   LEU   6 A 1 
+ATOM  81 H  HG   LEU   6 .  .  A  1    -2.184 -16.647  -2.870  1.00 57.26  .   HG   LEU   6 A 1 
+ATOM  82 C  CD1  LEU   6 .  .  A  1    -3.903 -15.753  -3.824  1.00 57.26  .   CD1  LEU   6 A 1 
+ATOM  83 H HD11  LEU   6 .  .  A  1    -4.075 -15.001  -3.055  1.00 57.26  .  HD11  LEU   6 A 1 
+ATOM  84 H HD12  LEU   6 .  .  A  1    -4.531 -16.618  -3.608  1.00 57.26  .  HD12  LEU   6 A 1 
+ATOM  85 H HD13  LEU   6 .  .  A  1    -4.173 -15.334  -4.794  1.00 57.26  .  HD13  LEU   6 A 1 
+ATOM  86 C  CD2  LEU   6 .  .  A  1    -2.201 -17.226  -4.905  1.00 57.26  .   CD2  LEU   6 A 1 
+ATOM  87 H HD21  LEU   6 .  .  A  1    -2.844 -18.087  -4.720  1.00 57.26  .  HD21  LEU   6 A 1 
+ATOM  88 H HD22  LEU   6 .  .  A  1    -1.161 -17.548  -4.869  1.00 57.26  .  HD22  LEU   6 A 1 
+ATOM  89 H HD23  LEU   6 .  .  A  1    -2.420 -16.800  -5.885  1.00 57.26  .  HD23  LEU   6 A 1 
+ATOM  90 O  OXT  LEU   6 .  .  A  1    -0.510 -15.364  -0.895  1.00 57.26  .   OXT  LEU   6 A 1 
